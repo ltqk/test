@@ -1,0 +1,14 @@
+git config --global user.name "qkcan"
+git config --global user.email qinkun.k@gmail.com
+
+//新建一个分支叫RB-0.1 (Release Branch)
+git branch RB_1.0 master
+//处理分布
+git tag q.0 RB_1.0
+//查看 tag
+git tag
+
+//变换当前基本目录 可以使用git rebase
+git checkout master 
+//现在切到主干了
+
